@@ -2,7 +2,7 @@
 # https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.2
 
 # specify fully qualified filepath to directory containing .docx files to be converted.
-$documents_path = 'C:\Users\JPeterson\OneDrive - Excel Engineering, Inc\documents\repos\pdf_converter\files_to_convert'
+$documents_path = 'C:\Users\JPeterson\OneDrive - Excel Engineering, Inc\documents\shared\print\genpdfs'
 
 $word_app = New-Object -ComObject Word.Application
 
